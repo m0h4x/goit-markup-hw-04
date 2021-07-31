@@ -310,6 +310,9 @@ margin-left: 12px;
     justify-content: center;
        
 }
+.por-sel-item:not(:last-child) {
+    margin-right: 8px;
+}
 .por-sel .link {
     color: var(--primary-white-color);
     font-weight: 500;
