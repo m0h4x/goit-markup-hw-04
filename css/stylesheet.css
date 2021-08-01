@@ -499,6 +499,10 @@ margin-left: 12px;
   background-color: #ffffff1a;
   border-radius: 50%;
 }
+.footer-icons-link:hover,
+.footer-icons-link:focus {
+  background-color: var(--accent-color);
+}
 .footer-adr .link-current {
     color: var(--accent-color);
 }
