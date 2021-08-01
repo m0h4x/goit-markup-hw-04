@@ -190,6 +190,14 @@ margin-left: 12px;
   display: flex;
   justify-content: center;
   margin-top: 16px;
+  align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+}
+.team-list-icon:hover,
+.team-list-icon:focus {
+  background-color: var(--accent-color);
 }
 .site-icon {
   fill: var(--icons-color);
