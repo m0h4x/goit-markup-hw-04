@@ -449,6 +449,15 @@ margin-left: 12px;
 .client-icon {
   fill: var(--icons-color);
 }
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--accent-color);
+}
+
+.client-link:hover .customer-icon,
+.client-link:focus .customer-icon {
+  fill: var(--accent-color);
+}
 /* footer adr */
 .footer-adr .link {
     color: var(--primary-white-color);
