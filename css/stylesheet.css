@@ -189,7 +189,7 @@ margin-left: 12px;
 .team-list-icon {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
+  /* margin-top: 16px; */
   align-items: center;
 width: 44px;
 height: 44px;
