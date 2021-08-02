@@ -186,6 +186,11 @@ margin-left: 12px;
 .team-icon-item:not(:last-child) {
   margin-right: 10px;
 }
+.team-list-site {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
 .team-list-icon {
   display: flex;
   justify-content: center;
@@ -194,6 +199,7 @@ margin-left: 12px;
 width: 44px;
 height: 44px;
 border-radius: 50%;
+background-color: var(--primary-white-color);
 }
 .team-list-icon:hover,
 .team-list-icon:focus {
