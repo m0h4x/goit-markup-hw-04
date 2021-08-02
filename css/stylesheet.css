@@ -205,6 +205,10 @@ background-color: var(--primary-white-color);
 .team-list-icon:focus {
   background-color: var(--accent-color);
 }
+.team-list-icon:hover .site-icon,
+.team-list-icon:focus .site-icon {
+  fill: var(--primary-white-color);
+}
 .site-icon {
   fill: var(--icons-color);
 }
