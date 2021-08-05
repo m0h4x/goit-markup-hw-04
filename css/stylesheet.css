@@ -50,7 +50,8 @@ ul {
 .list{
     list-style: none;
     padding: 0;
-    margin: 0; 
+    margin: 0;
+    margin-right: 10px; 
 }
 /* Logo */
 .logo{
@@ -142,6 +143,9 @@ margin-left: 12px;
     width: 1px;
     height: 1px;
     margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
 }
 
 
@@ -324,6 +328,7 @@ background-color: var(--primary-white-color);
     line-height: 1.18;
     margin-bottom: 10px;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 .paragraph-sks{
     font-size: 16px;
@@ -366,7 +371,7 @@ background-color: var(--primary-white-color);
     border-radius: 6px; 
     padding: 11px 34px;
     display: inline-block;
-    min-width: 130px;
+    /* min-width: 130px; */
 }
 .button.primary {
     color: var(--primary-white-color);
@@ -386,6 +391,14 @@ background-color: var(--primary-white-color);
     font-style: normal;
     color: var(--primary-white-color);
     margin-top: 20px;
+}
+.address-list-item {
+  color: var(--secondary-text-color);
+}
+
+.address-list-item:hover,
+.address-list-item:focus {
+  color: var(--accent-color);
 }
 .footer-item {
     margin-bottom: 9px;
@@ -481,6 +494,7 @@ background-color: var(--primary-white-color);
 .client-section-list {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .client-list-item:not(:last-child) {
   margin-right: 30px;
